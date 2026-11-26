@@ -82,4 +82,6 @@ Exit code 1 on any error, so it belongs in CI. From M0 it becomes the npm script
 * Files are edited **in place**; no dated copies.
 * Anything discovered that changes the implementation is written down immediately, not at
   implementation time.
-* Original task notes stay outside `docs/`: [../plan.md](../plan.md) and [../lpis.md](../lpis.md).
+* Earlier working notes (`plan.md`, `lpis.md`, `lpis_zjisteni.txt`) exist on the author's machine but
+  are **not in this repository**; everything they contained that still matters is already captured in
+  [analysis.md](./analysis.md) and [lpis-findings.md](./lpis-findings.md).

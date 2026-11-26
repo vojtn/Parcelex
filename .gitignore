@@ -1,0 +1,43 @@
+# závislosti
+node_modules/
+
+# build výstupy
+dist/
+dist-electron/
+build/
+.vite/
+coverage/
+
+# Capacitor nativní projekty (generují se příkazy `npx cap add …`)
+android/
+ios/
+
+# === Tajné hodnoty – NIKDY nekomitovat ===
+.env
+.env.*
+!.env.example
+*.local
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+# zálohy databáze / exporty (obsahují polohová data)
+*.sqlite
+*.db
+zalohy/
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# logy
+*.log
+npm-debug.log*
